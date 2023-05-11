@@ -11,4 +11,5 @@ import { Employee } from 'src/app/shared/interface';
 export class TableComponent {
   @Input() data: Employee[] = [];
   @Input() headers: Header[] = [];
+  @Input() classNames: string = '';
 }
