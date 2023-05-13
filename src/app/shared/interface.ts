@@ -9,3 +9,14 @@ export interface Header {
   key: keyof Employee;
   label: string;
 }
+
+export interface Stat {
+  value: number;
+  label: string;
+}
+
+export interface Item {
+  image: string;
+  title: string;
+  description: string;
+}
